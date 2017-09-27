@@ -19,7 +19,7 @@ class GreenplumDb < Formula
 
   def install
     # additional pip dependencies to run
-    system "pip", "install", "lockfile",
+    system "pip", "install -i https://pypi.tuna.tsinghua.edu.cn/simple", "lockfile",
                              "psi",
                              "paramiko",
                              "pysql",
